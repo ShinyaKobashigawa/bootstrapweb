@@ -8,7 +8,8 @@ body {
 .icon{
     position: fixed;
     left: 50px;
-    top: 100px;
+	top: 100px;
+	z-index: 2;
 }
 .icon p{
      margin-bottom: 50px;
@@ -70,6 +71,12 @@ body {
 	width: 500px;
 }
 
+/* ----- map ----- */
+#map {
+	height: 400px;
+	width: 600px;
+	margin: 0 auto;
+}
 
 /* ----- toppage ----- */
 .toppage-bg {
@@ -124,5 +131,6 @@ body {
 	font-size: 17px;
 	font-family: "Cardo", serif;
 	font-style: italic;
-	margin-bottom: 20px;
+	margin-top: 50px;
+	margin-bottom: 10px;
 }
