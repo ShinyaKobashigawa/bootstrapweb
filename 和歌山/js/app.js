@@ -41,11 +41,10 @@ $(function(){
             scrollwheel: false, //マウスホイールでの拡大・縮小を無効
         };
         var map = new google.maps.Map(mapdiv, myOptions);
-            var marker = new google.maps.Marker({
+        var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(33.675381,135.8853138), //ピンの緯度経度を入力
-                map: map, 
+                map: map,
                 title: "那智の滝" //ピンにマウスカーソルを乗せたときに表示されるタイトルを入力
-            });
+        });
     });
 });
-
