@@ -5,7 +5,7 @@ body {
 }
 
 /* ----- iconbar ----- */
-.icon{
+/* .icon{
     position: fixed;
     left: 50px;
 	top: 100px;
@@ -18,13 +18,20 @@ body {
 }
 .icon a{
 	color: cornflowerblue;
-}
+} */
 
 /* ----- navbar ----- */
+.nav-flex-icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 .navbar {
 	margin-left: 20px;
 }
-
+.navbar-nav{
+	margin-right: auto;
+}
 .navbar li {
 	margin: 0 10px;
 }
@@ -121,7 +128,7 @@ body {
 	font-size: 45px;
 }
 .page-top a{
-	color: cornflowerblue;
+	color: #4e6f91;
 }
 
 

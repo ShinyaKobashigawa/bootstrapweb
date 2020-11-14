@@ -13,15 +13,15 @@ $(function(){
     $('body, html').animate({scrollTop:0},500);
     });
 
-    let iconBtn = $('.icon');
-    iconBtn.hide();
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 500){
-            iconBtn.fadeIn();
-        } else {
-            iconBtn.fadeOut();
-        }
-    });
+    // let iconBtn = $('.icon');
+    // iconBtn.hide();
+    // $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 500){
+    //         iconBtn.fadeIn();
+    //     } else {
+    //         iconBtn.fadeOut();
+    //     }
+    // });
 
     // var MyLatLng = new google.maps.LatLng(35.6811673, 139.7670516);
     // var Options = {
