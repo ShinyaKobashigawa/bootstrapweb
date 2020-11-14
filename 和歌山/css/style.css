@@ -108,7 +108,14 @@ body {
 	font-size: 50px;
 	letter-spacing: 0.5em;
 }
-
+/*----- recommendation---- */
+.plan{
+	font-size: 30px;
+}
+.plan-title{
+	font-size: 25px;
+	margin-bottom:10px;
+}
 
 /* ----- video ----- */
 .video{
@@ -141,3 +148,4 @@ body {
 	margin-top: 50px;
 	margin-bottom: 10px;
 }
+
