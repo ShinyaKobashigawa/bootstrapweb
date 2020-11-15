@@ -108,15 +108,25 @@ body {
 	font-size: 50px;
 	letter-spacing: 0.5em;
 }
-/*----- recommendation---- */
+/*----- activity ---- */
 .plan{
 	font-size: 30px;
+	border-bottom: 2px double;
+	margin-bottom: 20px;
 }
 .plan-title{
 	font-size: 25px;
 	margin-bottom:10px;
 }
-
+.detail{
+	letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+.pic{
+	width: 300px;
+	height: 300px;
+}
+}
 /* ----- video ----- */
 .video{
 	margin: 200px auto;
