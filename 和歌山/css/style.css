@@ -65,18 +65,9 @@ body {
 }
 
 
-/* ----- article ----- */
-.article {
-	margin-top: 200px;
-}
+/* ----- content ----- */
 
-.article-list {
-	display: flex;
-}
 
-.article-list img {
-	width: 500px;
-}
 
 /* ----- map ----- */
 #google-map {
