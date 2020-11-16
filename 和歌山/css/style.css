@@ -38,6 +38,9 @@ body {
 } */
 
 /* ----- toppage ----- */
+#home {
+	top: 56px;
+}
 .toppage-bg {
 	background-image: url("../img/img_course_spot-04.jpg");
 	background-size: cover;
