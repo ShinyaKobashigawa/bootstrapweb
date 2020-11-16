@@ -32,6 +32,10 @@ body {
 }
 .navbar li {
 	margin: 0 10px;
+	padding-top: 3px;
+}
+.navbar .btn {
+	margin-top: 3px;
 }
 /* #flex {
 	margin: 100px auto;
